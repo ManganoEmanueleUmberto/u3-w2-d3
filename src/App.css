@@ -1,0 +1,71 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.container-general {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container-carousel {
+  width: 80%;
+}
+main .column {
+  max-width: 295px;
+
+  @media screen and (min-width: 1200px) {
+    max-width: 345px;
+  }
+  @media screen and (min-width: 1400px) {
+    max-width: 210px;
+  }
+  @media screen and (min-width: 1700px) {
+    max-width: 260px;
+  }
+  @media screen and (min-width: 1900px) {
+    max-width: 295px;
+  }
+}
+main .row {
+  @media screen and (min-width: 768px) {
+    translate: -10px;
+  }
+  @media screen and (min-width: 992px) {
+    translate: -12px;
+  }
+  @media screen and (min-width: 1200px) {
+    translate: -10px;
+  }
+}
+img {
+  max-width: 295px;
+  object-fit: cover;
+  object-position: bottom;
+  max-height: 166px;
+  aspect-ratio: 16/9;
+  cursor: pointer;
+  @media screen and (min-width: 1200px) {
+    max-width: 365px;
+  }
+  @media screen and (min-width: 1400px) {
+    max-width: 210px;
+  }
+  @media screen and (min-width: 1700px) {
+    max-width: 260px;
+  }
+  @media screen and (min-width: 1900px) {
+    max-width: 295px;
+  }
+}
+
+footer i {
+  transform: scale(2);
+  cursor: pointer;
+  transition: all, 500ms;
+}
+footer i:hover {
+  transform: scale(2.5);
+}
+footer .row {
+  p {
+    cursor: pointer;
+  }
+}
